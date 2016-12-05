@@ -3,12 +3,13 @@
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Hunter</title>
-    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <title>上海悍特企业管理咨询有限公司</title>
     <link rel="stylesheet" href="./css/common.css">
-
-    <script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./unslider/css/unslider.css">
+    <link rel="stylesheet" href="./unslider/css/unslider-dots.css">
+    <style type="text/css">
+    .unslider-nav { position: relative; top: -40px; }
+    </style>
 <body>
 
 <div id="header">
@@ -16,7 +17,7 @@
         <div id="logo_box">
             <a href="#" title="智通美瀚，您身边的猎头" style="color:inherit">
                 <img src="./image/logo.png" alt="logo">
-                <i class="logo_word">汉特猎头，您身边的猎头</i>
+                <i class="logo_word">悍特猎头，您身边的猎头</i>
             </a>
         </div>
         <div id="menu">
@@ -26,58 +27,20 @@
         </div>
     </div>
 </div>
-<div class="bs-example" data-example-id="simple-carousel">
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="./image/banner_1.jpg" alt="..." data-holder-rendered="true">
-                <div class="carousel-caption">
-                </div>
-            </div>
-            <div class="item">
-                <img src="./image/banner_2.jpg" alt="..." data-holder-rendered="true">
-                <div class="carousel-caption">
-                </div>
-            </div>
-            <div class="item">
-                <img src="./image/banner_3.jpg" alt="..." data-holder-rendered="true">
-                <div class="carousel-caption">
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="banner">
+    <ul>
+        <li>
+            <img src="./image/banner_1.jpg" />
+        </li>
+        <li>
+            <img src="./image/banner_2.jpg" />
+        </li>
+        <li>
+            <img src="./image/banner_3.jpg" />
+        </li>
+    </ul>
 </div>
-
-
-
-<!-- <div id="banner_box">
-        <div class="index_banner">
-            <a target="_blank" href="http://www.hunter5156.com/Other-scheme-1474944438">
-            <div class="banner_img active" style="background: url(./image/banner_1.jpg) center center no-repeat; display: none;"></div>
-                </a>
-            <a target="_blank" href="http://www.hunter5156.com/Other-consult-1474946225">
-            <div class="banner_img" style="background: url(./image/banner_2.jpg) center center no-repeat; display: block;"></div>
-            </a>
-            <a target="_blank" href="http://www.hunter5156.com/Tail-survey">
-            <div class="banner_img" style="background: url(./image/banner_3.jpg) center center no-repeat; display: none;"></div>
-            </a>
-
-        </div>
-        <div class="points">
-            <i class="banner_point"></i>
-            <i class="banner_point active"></i>
-            <i class="banner_point"></i>
-        </div>
-
-</div> -->
 
 <div id="footer">
     <div class="container">
@@ -117,16 +80,22 @@
         <div class="bottom_foot">
             <i class="icon icon-footer_border"></i>
             <p style="font-size:12px; color:#949494;">
-               上海/ 广州/ 合肥/ 杭州/ 宁波/ 厦门/ 东莞/ 成都
+               上海/ (你们公司有那么多分公司吗，哈哈)
             </p>
-            <p style="font-size:12px; color:#949494;">© 1999-2016 智通人才连锁保留全部权利　粤B2-20040400  粤B2-20040400-6    人力资源服务许可证：441900000005</p>
+            <p style="font-size:12px; color:#949494;">©2016（这里可以放网站的备案信息，如果要备案的话）   人力资源服务许可证：这里要换你们公司的服务许可证哦</p>
         </div>
     </div>
 </div>
 
-
-<script type="text/javascript">
+<script type="text/javascript" src="./js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./unslider/js/unslider-min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+        $('.banner').unslider({
+            autoplay: true,
+            arrows: false
+        });
+    });
 </script>
-
 </body>
 </html>

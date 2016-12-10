@@ -7892,7 +7892,7 @@ n_useer {
 .contact_head {
   width: 100%;
   height: 135px;
-  background: url("../images/about/about_head.gif") center center no-repeat;
+  background: url("../images/about_head.gif") center center no-repeat;
 }
 
 /* line 1, ../sass/sass/component/_limit-h.scss */

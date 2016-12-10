@@ -1,2 +1,0 @@
-# mmdaqiqi.github.io
-homepage

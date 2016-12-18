@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f8f8f8;color:#333333;}   * {margin: 0px;padding: 0px;font-family: "Microsoft YaHei" ! important;}
+ul,li,ol {list-style-type: none;} .clear {clear: both;}    a {color: #333;text-decoration: none;}
+a:hover {text-decoration: underline;}   img{border:0px;}
+.about_banner{width:100%;min-width:1300px;min-height:335px;height:335px; background:url(../images/about_banner.jpg) center no-repeat;}
+.aboutCon{width:100%;min-width:1300px;height:auto;margin:0 auto;}
+.aboutM{width:1200px;margin:0 auto;}  .aboutCon1{height:790px;background:#fff;}
+.aboutCon1_main{width:1080px;height:320px;margin:0 auto;padding-top:50px;}
+.aboutCon1_main_left{width:515px;float:left;} .aboutCon1_main_right{width:515px;float:right;}
+.aboutCon1_con_tit{font-size:33px;font-weight:500;width:490px;padding-left:10px;}
+.aboutCon1_con_con{font-size:14px;width:480px;padding:20px 0 010px;line-height:28px;}
+.aboutCon2{width:100%;height:360px; background:url(../images/aboutCon2_bg.jpg) center no-repeat;}
+.aboutCon2_nr{width:300px;text-align:center;float:left;color:#575a5c;padding:70px 40px 0 40px;}
+.aboutCon2_nr_tit{font-size:24px;padding-top:18px;line-height:40px;}
+.aboutCon2_nr_con{font-size:18px;line-height:30px;} .aboutCon2_nr_con span{color:#000;font-weight:bold;}
+.aboutCon5{width:100%;height:395px; background:url(../images/aboutCon5_bg.jpg) center no-repeat;}
+.aboutCon5_nr{color:#fff;text-align:center;padding:90px 20px 0 105px;float:left;}
+.aboutCon5_nr_tit{font-size:26px;font-weight:500;margin-top:20px;}
+.aboutCon5_nr_con{font-size:14px;font-weight:bold;margin-top:10px;}  .aboutCon3{width:100%;height:345px; background:#fff;}
+.aboutCon3_tit{font-size:30px;text-align:center;width:130px; border-bottom:3px solid #ff6b01;margin:0 auto;padding:30px 0 10px 0;}
+.aboutCon3_con{}
+.aboutCon3_main{width:300px;height:210px;text-align:center;float:left;margin-top:30px;padding:0 50px 0 30px;}
+.aboutCon3_main img{height:60px;width:145px;} .aboutCon3_main_tit{font-size:14px;font-weight:bold;margin-top:10px;line-height:20px;}
+.aboutCon3_main_con{text-align:left;font-size:14px;line-height:24px;padding-top:8px;width:260px;margin:0 auto;}
+.aboutCon3_con {width: 1200px;height: 210px;overflow: hidden;padding: 10px;margin: 0 auto; background:#fff;}
+.aboutCon3_con .LeftBotton {height: 45px;width: 20px;background:url(../images/aboutCon3_pre.jpg) no-repeat 0px 5px;overflow: hidden;float: left;display: inline;margin: 15px 0 0 0;cursor: pointer;margin-top:80px;}
+.aboutCon3_con .RightBotton {height: 45px;width: 20px;background:url(../images/aboutCon3_next.jpg) no-repeat 0px 5px;overflow: hidden;float: left;display: inline;margin: 15px 0 0 0;cursor: pointer;margin-top:80px;}
+.aboutCon3_con .Cont {width: 1100px;overflow: hidden;float: left;}
+.aboutCon3_con .ScrCont {width: 10000000px;}    #aboutCon3_List1,#aboutCon3_List2 {float: left;}    .aboutCon4{height:650px;}
+.aboutCon4_left{width:750px;height:500px;float:left;margin-top:40px;}
+.demo{width:640px; height:500px; margin:30px auto 0 auto; font-size:14px;}     .demo p{line-height:30px}
+.aboutCon4_right{width:380px;height:270px;float:left;margin-top:110px;}
+.aboutCon4_right_main1{width:288px;height:174px; border:1px solid #ff6b01;}
+.aboutCon4_right_main2{width:288px;height:220px; border:1px solid #ff6b01;}
+.aboutCon4_right_main3{width:288px;height:274px; border:1px solid #ff6b01;}
+.aboutCon4_right_main4{width:288px;height:374px; border:1px solid #ff6b01;}
+.aboutCon4_right_main_tit{width:235px;margin:0 auto;font-size:18px;font-weight:bold; border-bottom:1px solid #ff6b01;line-height: 40px;margin-top: 10px;}
+.aboutCon4_right_main_con{width:235px;margin:0 auto;} .aboutCon4_right_main_con ul{font-size:14px;margin-top:35px}
+.aboutCon4_right_main_con ul li{height:55px;}
+.aboutCon4_city{color:#ff6b01; border:1px solid #ff6b01;width:45px;height:20px; text-align:center;float:left;}
+.aboutCon4_city a{color:#ff6b01;}          .aboutCon4_mapico{width:13px;height:13px;margin: 5px 3px 0 10px;float:left;}
+.aboutCon4_address{width:160px;float:left;}  .aboutCon4_tel{width:175px;padding-left:10px;float:left;}

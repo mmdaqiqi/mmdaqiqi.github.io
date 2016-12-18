@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f8f8f8;color:#333333;}* {margin: 0px;padding: 0px;font-family: "Microsoft YaHei" ! important;}
+ul,li,ol {list-style-type: none;}.clear {clear: both;}
+a {color: #333;text-decoration: none;}a:hover {text-decoration: underline;} img{border:0px;}
+.flow_banner{width:100%;min-width:1300px;min-height:347px;height:347px; background:url(../images/flow_banner.jpg) center no-repeat;}
+.flowConent{width:100%;min-width:1300px;margin:0 auto;}
+.flowCon{width:1200px;height:auto;margin:0 auto;margin-bottom:100px;}
+.flowCon_img{margin:70px 0 30px 0;}
+.flowCon1{height:80px;}
+.flowCon1_nr{width:240px;height:auto;font-size:14px;float:left;padding:0 25px 0 25px;line-height:25px;color:#000;}
+.flowCon2{margin-top:10px;height:100px;}
+.flowCon2_nr{width:240px;height:auto;font-size:12px;float:left;padding:0 0 0 25px;}
+.flowCon2_nr ul li{line-height:24px;}
+.flowCon2_nr dl dd{margin:10px 15px 0 0;float:left;}

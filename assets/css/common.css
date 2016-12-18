@@ -61,7 +61,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 /*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
@@ -1076,6 +1076,10 @@ input.error {
 }
 #menu .nav_a .zhizhen{
   cursor: default !important;
+  color: #1a1a1a;
+}
+#menu .nav_a .zhizhen:hover {
+  color: #ff5d00;
 }
 // .nav_a, .nav_a.nav_active:hover .innner{
 //   display: block;
@@ -2278,7 +2282,7 @@ input.error {
   border: 1px solid #f38343;
 }
 #jinling_center .search_pagination .pagination .disabled{
-	color:#C7C7C7;
+  color:#C7C7C7;
 }
 /* line 222, ../sass/sass/page/_jinling_center.scss */
 #jinling_center .search_pagination .pagination .pagination_prev, #jinling_center .search_pagination .pagination .pagination_next {
@@ -3172,7 +3176,7 @@ input.error {
   border: 1px solid #f38343;
 }
 #jinling_centerSearch .search_pagination .pagination .disabled{
-	color:#C7C7C7;
+  color:#C7C7C7;
 }
 /* line 222, ../sass/sass/page/_jinling_centerSearch.scss */
 #jinling_centerSearch .search_pagination .pagination .pagination_prev, #jinling_centerSearch .search_pagination .pagination .pagination_next {
@@ -3276,6 +3280,22 @@ input.error {
   color: #fff;
 }
 
+/* line 1, ../sass/sass/page/_proposal.scss */
+.proposal_banner {
+  width: 100%;
+  height: 187px;
+  background: url(../images/static/proposal_banner.jpg) no-repeat center;
+}
+.proposal_banner1{
+  width: 100%;
+  height: 187px;
+  background: url(/Assets/Home/images/static/consolt_07.jpg) no-repeat center;
+}
+.proposal_banner2{
+  width: 100%;
+  height: 187px;
+  background: url(/Assets/Home/images/static/zixun_02.jpg) no-repeat center;
+}
 /* line 5, ../sass/sass/page/_proposal.scss */
 #flow_box {
   z-index: 100;
@@ -3851,6 +3871,18 @@ font-weight: bold;
 #flow{
   height: 822px;
 }
+/* 人才测评 */
+.proposal_banner3{
+  width: 100%;
+  height: 187px;
+   background: url(/Assets/Home/images/static/cpp_02.jpg) no-repeat center;
+
+}
+.sectionss{
+  width: 100%;
+  height: 400px;
+  background: url(/Assets/Home/images/static/cp01_02.jpg) no-repeat center;
+}
  .sectionss .lja{
     color: #fff;
     font-size: 18px;
@@ -3909,6 +3941,39 @@ font-weight: bold;
     margin: 0 auto;
     border: 0;
     max-width: 100%;;
+}
+.cp3{
+     width: 100%;
+  height: 400px;
+  background: url(/Assets/Home/images/static/AA_02.png) no-repeat center;
+}
+.cp4{
+     width: 100%;
+  height: 600px;
+  background: url(/Assets/Home/images/static/cp3_02.gif) no-repeat center;
+}
+.cp5{
+     width: 100%;
+  height: 570px;
+  background: url(/Assets/Home/images/static/bb_04.png) no-repeat center;
+}
+.cp6{
+     width: 100%;
+  height: 470px;
+  background: url(/Assets/Home/images/static/cp55_02.gif) no-repeat center;
+}
+.innner{
+
+ width: 158px;
+    height: 153px;
+    /* background-color: #cfc; */
+
+    position: absolute;
+    left: -7px;
+    top: 100%;
+    -webkit-border-radius: 8px;
+     display: none;
+    padding-top: 22px;
 }
 .innner a{
   display: inline-block;
@@ -4543,7 +4608,7 @@ font-weight: bold;
   border: 1px solid #f38343;
 }
 .pagination_center .pagination .disabled{
-	color:#C7C7C7;
+  color:#C7C7C7;
 }
 /* line 27, ../sass/sass/page/_rencaisousuo.scss */
 .pagination_center .pagination .pagination_prev, .pagination_center .pagination .pagination_next {
@@ -4831,7 +4896,7 @@ font-weight: bold;
 .about_content .about_nav {
   float: left;
   width: 100px;
-  height: 202px;
+  /*height: 202px;*/
   border: 1px solid #dedede;
 }
 /* line 14, ../sass/sass/page/_about.scss */

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff;color:#333333;}* {margin: 0px;padding: 0px;font-family: "Microsoft YaHei" ! important;}
+ul,li,ol {list-style-type: none;}.clear {clear: both;}a {color: #333;text-decoration: none;}a:hover {text-decoration: underline;}
+img{border:0px;}
+.adv_banner{width:100%;min-width:1300px;min-height:415px; background:url(../images/advbanner_bg.jpg) center no-repeat;}
+.advbanner_con{width:1200px;height:330px;margin:0 auto;padding-top:72px;}
+.advbanner_tit{font-size:30px;color:#ff6b01;font-weight:bold;width:100%;text-align:center;}
+.advbanner_main{width:100%;height:300px;margin-top:50px;}
+.advbanner_main_list li{width:400px;float:left;text-align:center;}
+.advbanner_main_list_tit{width:180px;margin:0 auto;}
+.advbanner_main_list_con{width:185px;margin:0 auto;font-size:14px;color:#3b312b;line-height:25px;margin-top:20px;}
+.advContent{width:100%;min-width:1300px;height:auto;}.advCon1{height:600px;background:#f8f8f8;}
+.advCon_main{width:1200px;margin:0 auto;}.advCon1_main_n{width:770px;margin:0 auto;padding-top:30px;text-align:center;}
+.advCon1_main_tit{font-size:34px;line-height:60px;}.advCon1_main_con{font-size:16px;line-height:30px;}
+.advCon1_b{width:100%;height:430px;background:url(../images/advCon1_bottom.jpg) center no-repeat;margin-top:20px;}
+.advCon2{width:100%;height:445px;background:#fff;}
+.advCon2_main_left{float:left;margin-top:60px;}.advCon2_main_right{float:right;width:410px;height:300px;margin-top:60px;}
+.advCon_con h2{font-size:34px; font-weight:500;line-height:70px;margin-top:40px;}.advCon_con p{font-size:16px;line-height:28px;}
+.advCon3{background:#f8f8f8;}.advCon3_b{background:url(../images/advCon3_bg.jpg) no-repeat;}
+.advCon3_main{width:410px;height:320px;margin-left:100px;padding-top:70px;}.advCon4{background:#fff;}
+.advCon4_b{background:url(../images/advCon4_bg.jpg) no-repeat;width:1200px;height:440px;}
+.advCon4_main{width:410px;height:320px;margin-left:100px;padding-top:70px;float:right;}
+.advCon5{background:#fff;}.advCon5_b{background:url(../images/advCon5_bg.jpg) no-repeat;height:445px;}.advCon5_main{width:410px;height:320px;margin-left:100px;padding-top:70px;}
+.advCon6{background:#f4f4f4;height:445px;}.advCon6_main{width:410px;height:320px;padding:70px 60px 0 0;float:right;}
+.advCon6_left{float:left;width:600px;text-align:center;margin-top:130px;}
+.advCon7{width:100%;height:635px;background:#fff;}.advCon7_left{width:655px;height:600px;float:left;}
+.advCon7_left h2{font-size:36px;font-weight:500;width:410px;margin:0 auto;line-height:70px;margin-top:70px;}
+.advCon7_left dl{font-size:16px;width:410px;margin:0 auto;margin-top:30px;line-height:28px;}
+.advCon7_left dl dt{font-weight:bold;}.advCon7_left dl dt dd{color:000;}.advCon7_right{float:right;}

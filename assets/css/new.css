@@ -1838,7 +1838,7 @@ img {
 }
 
 .content_left {
-    width: 928px;
+    /*width: 928px;*/
     height: auto;
     float: left;
     margin-top: 30px;

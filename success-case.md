@@ -31,7 +31,7 @@ permalink: /success-case/
                 <ul class="caseCon_right_l_list">
 
                             <li>
-                                <a href="/case/1001/" target="_blank">东莞 执行副总 入职成功 年薪76万</a>
+                                <a href="/success-case/1001" target="_blank">东莞 执行副总 入职成功 年薪76万</a>
                                 <span>16/12/8 </span>
                                 <input type="hidden" name="isHot" value="">
                             </li>

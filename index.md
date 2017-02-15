@@ -16,6 +16,12 @@ layout: page
         <li>
             <img class="img-responsive" src="{{ site.BASE_PATH }}/assets/images/banner_3.jpg" />
         </li>
+        <li>
+            <img class="img-responsive" src="{{ site.BASE_PATH }}/assets/images/banner_4.jpg" />
+        </li>
+        <li>
+            <img class="img-responsive" src="{{ site.BASE_PATH }}/assets/images/banner_5.jpg" />
+        </li>
     </ul>
 </div>
 

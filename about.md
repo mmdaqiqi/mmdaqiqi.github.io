@@ -16,7 +16,7 @@ permalink: /about/
             <div class="aboutCon1_con_con">上海悍特企业管理咨询有限公司是一家备受好评的猎头公司，业务范围遍布50多个城市，在行业中享有超高的声誉，很多的新客户都是来自于以往老客户的推荐。</div>
         </div>
         <div class="aboutCon1_main_right">
-            <img src="{{ site.BASE_PATH }}/assets/images/aboutCon1_01.jpg">
+            <img src="{{ site.BASE_PATH }}/assets/images/aboutCon1_01.png">
         </div>
     </div>
     <div class="aboutCon1_main">
